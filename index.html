@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Build a Personal Portfolio Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#navbar">
+  <header>
+    <nav class="pb-5 pb-md-2 navbar fixed-top navbar-toggleable-sm navbar-light bg-faded" id="navbar">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" role="tablist">
+          <li class="navbar-item"><a href="#about" class="nav-link">Sobre Mim</a></li>
+          <li class="navbar-item"><a href="#portifolio" class="nav-link">Portfolio</a></li>
+          <li class="navbar-item"><a href="#contact" class="nav-link">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid p-0">
+      <div class="row about" id="about">
+        <div class="col-lg-4 offset-lg-1
+                    col-sm-6 offset-sm-1
+                    col-10 offset-1">
+          <h1 class="text-right">Dae Guri, <small>Eu sou o Bruno</small></h1>
+          <h6 class="text-right">E eu amo Programar ❤️ <code>&&</code> ☕</h6>
+        </div>
+        <div class="hidden-xs-down
+                    col-lg-6 offset-lg-0
+                    col-sm-4 offset-sm-0
+                    col-6 offset-6">
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQHLH3dnKXhnrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725455298887?e=1730937600&v=beta&t=K2TyMXqbDssp3dYUb0DUdA2hwP_AiYZ4x4bKGRW6bZ0" alt="" class="rounded-circle w-sm-25"/>
+        </div>
+        <div class="col-lg-6 offset-lg-2
+                    col-10 offset-1 mt-5">
+          <h5>Sobre mim</h5>
+          <p>Tenho 18 anos e sou apaixonado por esportes. Atualmente, estou cursando Desenvolvimento de Sistemas, o que tem sido uma jornada incrível de aprendizado e desafios.
+
+<br>
+          Nos meus momentos livres, adoro passar tempo com minha família, que é uma parte essencial da minha vida. Também estou fazendo estágio na Sanepar, onde tenho aprendido muito sobre o mundo profissional.
+
+<br>
+          Outra paixão minha é a música – estou sempre com os fones de ouvido, explorando novos sons e ritmos. Ah, e não posso esquecer do café! Um bom café é o combustível para meus dias produtivos.
+
+</p>
+          <hr />
+        </div>
+      </div>
+      <div class="row no-gutters portifolio" id="portifolio">
+        <div class="col-lg-12 bg-faded">
+          <h3 class="p-5">Portifolio</h3>
+        </div>
+        <div class="col-lg-12 bg-faded" style="border-bottom: 150px solid #f7f7f7;">
+          <div class="row no-gutters">
+            <div class="col-lg-6 p-2">
+              <a href="https://codepen.io/devgaspa/full/vmayOW/" target="_blank" alt="Carl Sagan Tribute Web Page">
+                <img class="portifolio-item img-fluid" src="https://ingresseead.unibrasil.com.br/wp-content/uploads/2022/05/ENGENHARIADESOFTWARE.jpg
+              " alt="Carl Sagan Tribute Web Page" />
+              </a>
+            </div>
+            <div class="col-lg-6 p-2">
+              <a>
+               
+              </a>
+            </div>
+      </div>
+      <div class="row no-gutters contact" id="contact" style="border-top: 150px solid #f7f7f7;">
+        <div class="col-lg-12 bg-faded">
+          <h3 class="p-5">Manda ai</h3>
+        </div>
+        <div class="col-lg-10 offset-lg-1">
+          <form class="p-5">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="celular">Celular</label>
+              <input type="text" class="form-control" id="celular" placeholder="Numero do celular">
+            </div>
+            <div class="form-group">
+              <label for="msg">Menssagem</label>
+              <textarea class="form-control" id="msg" rows="4" placeholder="O que você quer saber?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <div class="row bg-inverse footer">
+      <div class="col-lg-8 text-white">
+        <p class="text-center m-0 pt-4">Chama <a href="#about">guri!</a></p>
+      </div>
+      <div class="col-lg-4 text-white p-4">
+        <ul class="nav list-unstyled w-100">
+          <li class="mx-2"><a href="https://twitter.com/dinamarconha" target="_blank" alt="Twitter"><i class="fa fa-twitter text-white"></i></a></li>
+          <li class="mx-2"><a href="https://github.com/devgaspa" target="_blank" alt="GitHub"><i class="fa fa-github text-white"></i></a></li>
+          <li class="mx-2"><a href="https://pt.stackoverflow.com/users/26636/devgaspa" target="_blank" alt="StackOverflow"><i class="fa fa-stack-overflow text-white"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+  position: relative;
+}
+
+.about {
+  padding-top: 150px;
+}
+
+.portifolio {
+  padding-top: 100px;
+}
+
+.portifolio .portifolio-item {
+  border: 1px solid #eee;
+  border-top: 0px;
+  border-left: 0px;
+}
